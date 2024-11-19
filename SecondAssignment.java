@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 
 public class SecondAssignment {
@@ -20,13 +19,12 @@ public SecondAssignment(){
 }
 
 public void displayDetails(){
+    System.out.println("******************************");
     System.out.println("Car :"+ car);
     System.out.println("Brand Model : "+ brand);
     System.out.println("Manufacturing year : "+ make);
     System.out.println("The price of the car : "+ price);
 }
-
-
 
 public static void main(String[] args) {
     SecondAssignment car = new SecondAssignment();
@@ -36,6 +34,7 @@ public static void main(String[] args) {
     car2.displayDetails();
     car3.displayDetails();
 
-    System.out.println("Average price is " + (car.price + car2.price + car3.price) / 3);
-}
+    System.out.println("Average price is "  +  (car.price + car2.price + car3.price) / 3);
+
+    }
 }
